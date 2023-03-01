@@ -11,7 +11,7 @@ html, body{
 body{
     color: white;
     background: rgb(101, 97, 114);
-    background: linear-gradient(180deg, rgba(101, 97, 114, 1) 0%, rgba(38, 37, 43, 1) 100%);
+    background: linear-gradient(180deg, rgba(101, 97, 114, 1) 0%, rgba(38, 37, 43, 1) 50%, rgba(101, 97, 114, 1) 100%);
 }
 
 .avatar{
@@ -61,6 +61,7 @@ h2{
     color: rgb(101, 97, 114);
     background-color: white;
     border-radius: 6px;
+    box-shadow: 0 0 2px white;
 }
 
 .links-list li a span{
